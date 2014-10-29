@@ -1,0 +1,11 @@
+<aspectj>
+ <aspects>
+  <aspect name="com.sample.aspectj.MySimpleLoggerAspect" />
+ </aspects>
+   
+ <weaver>
+  <include within="com.sample.aspectj.*" />
+  <include within="com.sample.service.*" />
+ </weaver>
+ 
+</aspectj>
